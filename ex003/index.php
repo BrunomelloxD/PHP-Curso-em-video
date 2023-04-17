@@ -9,13 +9,32 @@
 </head>
 
 <body>
+    <h1>Teste tipos primitivos</h1>
     <?php 
-        $name = "Bruno";
-        $lastName = "Mello";
+    // $num = "Bruno";
+    // var_dump($num)
 
-        const COUNTRY = "Brasil";
+    // $num = (int) 3e2;
+    // var_dump($num)
 
-        echo "Muito prazer, $name $lastName! Você mora no " . COUNTRY
+    // $num = (float) '950';
+    // var_dump($num)
+
+    // $casado = (string) true;
+    // var_dump($casado);
+    // echo "O valor para casado é $casado"
+
+    // $vet = [6,2,3,10];
+    // var_dump($vet);
+    // echo "O vetor é $vet"
+
+    class Pessoa {
+        private string $nome;
+         
+    }
+
+    $p = new Pessoa;
+    var_dump($p);
     ?>
 </body>
 
